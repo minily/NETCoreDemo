@@ -62,6 +62,7 @@ namespace HealthCheck010
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             // 使用健康检查 （端口添加到项目属性，且可把端口配置到json文件方便维护）
+            // app.UseHealthChecks("/health", 8000);
             app.UseHealthChecks("/health", 8000, new HealthCheckOptions
             {
                 ResponseWriter = WriteResponse
