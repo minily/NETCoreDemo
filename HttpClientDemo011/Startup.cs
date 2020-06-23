@@ -49,10 +49,11 @@ namespace HttpClientDemo011
                 // 连续出现2次，熔断10秒
                 .AddPolicyHandler(Policy<HttpResponseMessage>.Handle<Exception>().CircuitBreakerAsync(2, TimeSpan.FromSeconds(10), (ex, ts) =>
                 {
+                    // 状态一直熔断，则一直在10秒和2次之间循环
                     Console.WriteLine($"break here {ts.TotalMilliseconds}，异常：{ex.Exception.Message}");
                 }, () =>
                 {
-                    // 恢复请求
+                    // 恢复请求，之后恢复请求之后，才会继续执行失败重试-WaitAndRetryAsync
                     Console.WriteLine($"reset here ");
                 }))
                 // 超时
