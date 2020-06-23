@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4QITiyr0eG9D6Uwz1teOjWGIN+JHWPB56Ay69o8lRs3qBGfL3K+GsVvl0J8KDnp4NAWQhs89jsZinkxZUHWWQ==",
+  "dgSpecHash": "gQ1wPAUBdx6bJVEOL4Gkar6H7hARN/ZKCym3pxdr4zMcrHYPFTfF0V2vGMWWNkag0UGGyRMHSi5aGb/+1WsCWg==",
   "success": true,
-  "projectFilePath": "F:\\projects\\AspNetCore\\Log007\\Log007.csproj",
+  "projectFilePath": "D:\\project\\NETCoreDemo\\NETCoreDemo\\Log007\\Log007.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

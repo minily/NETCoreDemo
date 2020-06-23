@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9/qKKl8tW1vaBWzmopsU2DzXzz0DFslrggdmxDRniZSGGYXxxc23ddYOcKE7Bpo8qc/K2U+izvkWZeCo/BtaFg==",
+  "dgSpecHash": "fuZAgZqCn/mFUX7mSjU6OdZ9PWJY7h0I/bOZqtEw31hbKQrtns4+/xok2BhUfB1QrJuDcI3AWfRaAhRrE76xuA==",
   "success": true,
-  "projectFilePath": "F:\\projects\\AspNetCore\\DI002\\DI002.csproj",
+  "projectFilePath": "D:\\project\\NETCoreDemo\\NETCoreDemo\\DI002\\DI002.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

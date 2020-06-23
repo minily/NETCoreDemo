@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpjYyFYDoFM11rQXrEObI3JRSl74wrHCuL+6AmroSIJxQsJAOn/Z4Te02MLgKceKsZowB6aV5zLrxb30gwN53g==",
+  "dgSpecHash": "7UAoFWJ69i7iQhh1mvB+CYV6SW0xeWMkAy280CGKbXupa5Y2a0RMYp0VYK0ZE/CbaVcQHYn2EJB3Ltqglp0Sig==",
   "success": true,
-  "projectFilePath": "F:\\projects\\AspNetCore\\NLog008\\NLog008.csproj",
+  "projectFilePath": "D:\\project\\NETCoreDemo\\NETCoreDemo\\NLog008\\NLog008.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jLSjUqZpwi9vjY95j36zKF+h8kZEGJkrt0KcFhtbON98SjLdGupqvi+TtERZh2A5yKl3bGi9lEnP7lMz2i1g6w==",
+  "dgSpecHash": "xh96xsy8/Fjl1IFphcVKqhGhFTHEGBF18bDGJne1sjK6E9M+i1kDlOk/Bay/LqoOoX4WBt+LXEDW3EduG53InA==",
   "success": true,
-  "projectFilePath": "F:\\projects\\AspNetCore\\MW004\\MW004.csproj",
+  "projectFilePath": "D:\\project\\NETCoreDemo\\NETCoreDemo\\MW004\\MW004.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

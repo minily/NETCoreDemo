@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SVCqdjR3UkmQYhjSmCtBSceyVTU2zQUoqoxvgEQG8bAbpynN8gxumdTUtoUpQInVgzkoz5RarfUgzawmZTQhiA==",
+  "dgSpecHash": "jUtj/ZCVLEAclZWuhzLmLg9WrjPha5jqPFyilTgWqdUFk7YfVTsauNTHUWsE6XCpOywgho1aUpfEEzJhknQuiw==",
   "success": true,
-  "projectFilePath": "F:\\projects\\AspNetCore\\BaseDemo001\\BaseDemo001.csproj",
+  "projectFilePath": "D:\\project\\NETCoreDemo\\NETCoreDemo\\BaseDemo001\\BaseDemo001.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0-preview.5.20278.1\\microsoft.extensions.configuration.5.0.0-preview.5.20278.1.nupkg.sha512",

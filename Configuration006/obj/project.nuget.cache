@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "izuX5ZGr9XUnTIHSoLyKOdp2d6WqL1DdP3tYVSM7j7QnzsfuOry8NTO5J+AJe8ENyiPF2rPn6K8BG4/ElWCmlQ==",
+  "dgSpecHash": "r9UKAeDJPinO18irFFRe7nB4r4jXDh55qUWMD06Kyy+mDLHUQQjtJaC8XAeBGzJ+YEZecFDuOfmGE5W3klO7Qw==",
   "success": true,
-  "projectFilePath": "F:\\projects\\AspNetCore\\Configuration006\\Configuration006.csproj",
+  "projectFilePath": "D:\\project\\NETCoreDemo\\NETCoreDemo\\Configuration006\\Configuration006.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
