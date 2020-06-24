@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientDemo011", "HttpCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationCookio012", "AuthorizationCookio012\AuthorizationCookio012.csproj", "{BB014587-4E38-4D62-AB4E-4C506700BE82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationToken013", "AuthenticationToken013\AuthenticationToken013.csproj", "{9F016DDA-1E2C-4610-867D-9770FD427BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BB014587-4E38-4D62-AB4E-4C506700BE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB014587-4E38-4D62-AB4E-4C506700BE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB014587-4E38-4D62-AB4E-4C506700BE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F016DDA-1E2C-4610-867D-9770FD427BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F016DDA-1E2C-4610-867D-9770FD427BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F016DDA-1E2C-4610-867D-9770FD427BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F016DDA-1E2C-4610-867D-9770FD427BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
