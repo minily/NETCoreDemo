@@ -27,6 +27,9 @@ namespace HealthCheck010
 
             cancellationToken.ThrowIfCancellationRequested();
 
+            // 可以获取来自哪一个健康检查
+            var entries = report.Entries;
+
             return Task.CompletedTask;
         }
     }
