@@ -66,6 +66,7 @@ namespace HealthCheck010
             // app.UseHealthChecks("/health", 8000);
             app.UseHealthChecks("/health", 8000, new HealthCheckOptions
             {
+                // 自定义健康检查格式
                 ResponseWriter = WriteResponse
                 //Predicate = (check) => check.Tags.Contains("mysql")
             });
