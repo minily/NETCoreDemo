@@ -40,7 +40,7 @@ namespace AuthorizationCookio012
                 {
                     var userPermissions = new List<UserPermission> {
                         new UserPermission{ Url = "/home/index", UserName="minily"},
-                        //new UserPermission{ Url = "/", UserName="minily"},
+                        new UserPermission{ Url = "/", UserName="minily"},
                         new UserPermission{ Url = "/home/privacy", UserName="admin"}
                     };
                     policy.Requirements.Add(new PermissionRequirement("/denied", userPermissions));

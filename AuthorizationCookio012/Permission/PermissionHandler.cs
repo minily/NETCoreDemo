@@ -35,7 +35,7 @@ namespace AuthorizationCookio012.Permission
             else
             {
                 var filter = context.Resource as AuthorizationFilterContext;
-                url = filter?.HttpContext?.Request?.Path.Value?.ToString();
+                url = filter?.HttpContext?.Request?.Path.Value?.ToLower();
                 method = filter?.HttpContext?.Request?.Method;
             }
 
@@ -53,6 +53,10 @@ namespace AuthorizationCookio012.Permission
                     if (isExist)
                     {
                         context.Succeed(requirement);
+                    }
+                    else
+                    {
+                        context.Fail();
                     }
                 }
                 else
