@@ -61,6 +61,7 @@ namespace HealthCheck010
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // app.UseHealthChecks("/health");
             // 使用健康检查 （端口添加到项目属性，且可把端口配置到json文件方便维护）
             // app.UseHealthChecks("/health", 8000);
             app.UseHealthChecks("/health", 8000, new HealthCheckOptions
