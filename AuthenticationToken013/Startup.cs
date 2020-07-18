@@ -30,7 +30,7 @@ namespace AuthenticationToken013
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // 
+            // ¶¨Òå½ÇÉ«
             var audience = Configuration.GetSection("Audience")["Audience"];
             var secret = Configuration.GetSection("Audience")["Secret"];
             var issuer = Configuration.GetSection("Audience")["Issuer"];

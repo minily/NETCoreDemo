@@ -45,6 +45,7 @@ namespace HttpClientDemo011
                 // 请求失败重试3次，每隔3秒重试一次
                 .AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromSeconds(3)))
 
+                // NuGet - Microsoft.Extensions.Http.Polly
                 // 熔断 - 没有熔断，无效的地址会一直请求一直重试；熔断发现无效后再次请求会立刻返回错误不再重试
                 // 连续出现2次，熔断10秒
                 .AddPolicyHandler(Policy<HttpResponseMessage>.Handle<Exception>().CircuitBreakerAsync(2, TimeSpan.FromSeconds(10), (ex, ts) =>

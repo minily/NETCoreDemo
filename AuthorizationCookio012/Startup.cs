@@ -56,7 +56,6 @@ namespace AuthorizationCookio012
             services.AddSingleton<IAuthorizationHandler, PermissionHandler>();
 
 
-
             services.AddControllersWithViews(opt =>
             {
                 opt.EnableEndpointRouting = false;
