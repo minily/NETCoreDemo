@@ -13,6 +13,7 @@ namespace Configuration006
     {
         public static void Main(string[] args)
         {
+
             CreateHostBuilder(args).Build().Run();
         }
 

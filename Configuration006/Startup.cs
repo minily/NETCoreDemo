@@ -33,7 +33,7 @@ namespace Configuration006
             //Configuration.GetSection("AppSetting").Bind(appSetting);
             //services.AddSingleton(appSetting);
 
-            // 热更新
+            // 热更新 configure<>();
             services.Configure<AppSetting>(Configuration.GetSection("AppSetting"));
 
 

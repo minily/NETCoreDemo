@@ -13,6 +13,7 @@ namespace MW004
     {
         public static void Main(string[] args)
         {
+
             CreateHostBuilder(args).Build().Run();
         }
 

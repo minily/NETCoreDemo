@@ -15,7 +15,9 @@ namespace NLog008
     {
         public static void Main(string[] args)
         {
+            // 获取Nlog配置
             var logger = NLog.Web.NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+
             try
             {
                 logger.Info("启动NLog008项目");
@@ -41,7 +43,9 @@ namespace NLog008
                 })
                 .ConfigureLogging(logging =>
                 {
+                    // 清除其他Log
                     logging.ClearProviders();
+                    // 设置最小日志级别
                     logging.SetMinimumLevel(LogLevel.Trace);
                 })
                 // 日志使用方式都是一样的，即使Controller里以来注入的是ILogger

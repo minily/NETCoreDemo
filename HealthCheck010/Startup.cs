@@ -39,7 +39,8 @@ namespace HealthCheck010
             // 自定义健康检查（监控类 - 业务逻辑、内存、磁盘等等）
             services.AddHealthChecks()
                 .AddMySql(Configuration.GetConnectionString("OilCenterDB"), tags: new[] { "mysql" })
-                .AddMyHealthCheck();    // 自定义监控类注入到监控列表
+                // 自定义监控类注入到监控列表
+                .AddMyHealthCheck();
 
             #region 设置为主动监控并推送健康状态
             // 主动推送应用运行健康状态

@@ -13,6 +13,7 @@ namespace DI002
     {
         public static void Main(string[] args)
         {
+
             CreateHostBuilder(args).Build().Run();
         }
 

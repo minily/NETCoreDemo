@@ -13,6 +13,7 @@ namespace MultiDI003
     {
         public static void Main(string[] args)
         {
+
             CreateHostBuilder(args).Build().Run();
         }
 

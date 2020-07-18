@@ -28,6 +28,7 @@ namespace GlobalizationLocalization009
             // 注入全球化和本地化
             services.AddLocalization(options => options.ResourcesPath = "Resources");
 
+
             services.AddControllersWithViews()
                 .AddViewLocalization()
                 .AddDataAnnotationsLocalization();

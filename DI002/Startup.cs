@@ -26,6 +26,7 @@ namespace DI002
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IYouService, YouService>();
+
             //services.AddTransient<IMyService, MyService1>();
             //services.AddScoped<IMyService, MyService1>();
             services.AddSingleton<IMyService, MyService1>();

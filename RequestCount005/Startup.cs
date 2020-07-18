@@ -16,6 +16,7 @@ namespace RequestCount005
     {
         public Startup(IConfiguration configuration)
         {
+
             Configuration = configuration;
         }
 

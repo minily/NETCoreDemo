@@ -16,6 +16,7 @@ namespace MW004
     {
         public Startup(IConfiguration configuration)
         {
+
             Configuration = configuration;
         }
 

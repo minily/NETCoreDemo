@@ -13,6 +13,7 @@ namespace Log007
     {
         public static void Main(string[] args)
         {
+            // CreateHostBuilder
             CreateHostBuilder(args).Build().Run();
         }
 
